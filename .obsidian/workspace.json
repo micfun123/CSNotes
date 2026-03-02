@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "3e59d01b0bb3d5a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9bd14f3919af7d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7fa23290e33b7a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papl/lecutre8 Syntax Analysis and Parsing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lecutre8 Syntax Analysis and Parsing"
+            }
+          },
+          {
+            "id": "915d9a4f09976a05",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8644c3d1ed5a9a93",
+    "type": "split",
+    "children": [
+      {
+        "id": "165b657ab1d45a2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b0dfb99e9f150e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e4aa24d26a78c2c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a344bb4a249a2181",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c5095da46131c8d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f691856e2a567ff2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6df6833ab628fec0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Maths.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Maths"
+            }
+          },
+          {
+            "id": "8077aca93d048fba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Maths.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Maths"
+            }
+          },
+          {
+            "id": "bf47626b56100fb8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0f8ff38bd2d4141e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "65553f01f8906755",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Maths.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Maths"
+            }
+          },
+          {
+            "id": "46e8d8c4509db97c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "915d9a4f09976a05",
+  "lastOpenFiles": [
+    "README.md",
+    "Papl/lecture 9 Top Down Parser.md",
+    "Papl/lecutre8 Syntax Analysis and Parsing.md",
+    "recap.md",
+    "Papl/Describing Language Syntax.md",
+    "Papl/Overview and Evaluation of programming languages Lesson 2.md",
+    "Cryptography/week1.md",
+    "Papl/Week 4 Build a Lexical Analyser.md",
+    "Papl/Week1 Introductions.md",
+    "Papl/week3 session 2  Lexical Analysis –Deterministic FiniteAutomaton.md",
+    "Pasted image 20260218215218.png",
+    "maths/Logic.md",
+    "FuncProg/week4.md",
+    "FuncProg/Week3.md",
+    "Maths.md",
+    "Papl/week2 High Level Language Implementation.md",
+    "Papl/week3 Lexical Analysis - Regular Expressions.md",
+    "maths/Logic full.md",
+    "Cryptography/week4.md",
+    "maths",
+    "FuncProg/week1.md",
+    "Cryptography/week3.md",
+    "Pasted image 20260216092450.png",
+    "Untitled.canvas",
+    "Cryptography/week2 Secrypt.md",
+    "Pasted image 20260202120152.png",
+    "Pasted image 20260202092409.png",
+    "Pasted image 20260202092334.png",
+    "Papl/Pasted image 20260127140521.png",
+    "Untitled.base",
+    "Papl",
+    "Welcome.md"
+  ]
+}
