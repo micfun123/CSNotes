@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Papl/lecture 9 Top Down Parser.md",
+                "file": "Cryptography/Week 6 Lecture Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lecture 9 Top Down Parser"
+              "title": "Week 6 Lecture Notes"
             }
           }
         ],
@@ -171,31 +171,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papl/lecture 9 Top Down Parser.md",
+                "file": "Cryptography/Week 6 Lecture Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lecture 9 Top Down Parser"
-            }
-          },
-          {
-            "id": "bf0d021f1fea8a51",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Week 6 Lecture Notes"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 558.5
+    "width": 558.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,43 +198,48 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-git:Open Git source control": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "915d9a4f09976a05",
   "lastOpenFiles": [
+    "Cryptography/week4.md",
+    "Papl/week3 Lexical Analysis - Regular Expressions.md",
+    "Excalidraw/Drawing 2026-03-09 12.08.14.excalidraw.md",
+    "2026-03-09.md",
+    "Cryptography/Week 6 Lecture Notes.md",
+    "Excalidraw",
+    "Papl/Lecture 04 Lexical Analysis.md",
+    "Papl/lecture 9 Top Down Parser.md",
+    "Papl/Describing Language Syntax.md",
+    "W2 Lecture 3 Rewrite High Level Language Implementation.md",
+    "Papl/week3 session 2  Lexical Analysis –Deterministic FiniteAutomaton.md",
+    "Papl/Overview and Evaluation of programming languages Lesson 2.md",
+    "Papl/Week1 Introductions.md",
+    "Papl/lecutre8 Syntax Analysis and Parsing.md",
+    "Papl/week2 High Level Language Implementation.md",
+    "maths/Logic.md",
+    "maths/Logic full.md",
     "recap.md",
     "setap Software testing..md",
-    "maths/Logic full.md",
-    "maths/Logic.md",
-    "Papl/lecture 9 Top Down Parser.md",
     "README.md",
-    "Papl/lecutre8 Syntax Analysis and Parsing.md",
-    "Papl/Describing Language Syntax.md",
-    "Papl/Overview and Evaluation of programming languages Lesson 2.md",
     "Cryptography/week1.md",
     "Papl/Week 4 Build a Lexical Analyser.md",
-    "Papl/Week1 Introductions.md",
-    "Papl/week3 session 2  Lexical Analysis –Deterministic FiniteAutomaton.md",
     "Pasted image 20260218215218.png",
     "FuncProg/week4.md",
     "FuncProg/Week3.md",
     "Maths.md",
-    "Papl/week2 High Level Language Implementation.md",
-    "Papl/week3 Lexical Analysis - Regular Expressions.md",
-    "Cryptography/week4.md",
     "maths",
     "FuncProg/week1.md",
     "Cryptography/week3.md",
     "Pasted image 20260216092450.png",
     "Untitled.canvas",
-    "Cryptography/week2 Secrypt.md",
     "Pasted image 20260202120152.png",
     "Pasted image 20260202092409.png",
     "Pasted image 20260202092334.png",
     "Papl/Pasted image 20260127140521.png",
     "Untitled.base",
-    "Papl",
-    "Welcome.md"
+    "Papl"
   ]
 }
