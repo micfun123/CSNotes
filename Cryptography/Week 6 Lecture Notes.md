@@ -201,11 +201,11 @@ If Alice generates `H(m)` and publishes it:
 
 ### Common Hash Algorithms
 
-|Algorithm|Status|
-|---|---|
-|**SHA-2**|✅ Current standard — secure and widely used|
-|**SHA-1**|❌ Broken — collisions have been demonstrated|
-|**MD5**|❌ Broken — collision attacks known since 2005|
+| Algorithm | Status                                        |
+| --------- | --------------------------------------------- |
+| **SHA-2** | ✅ Current standard — secure and widely used   |
+| **SHA-1** | ❌ Broken — collisions have been demonstrated  |
+| **MD5**   | ❌ Broken — collision attacks known since 2005 |
 
 ### The Birthday Paradox
 

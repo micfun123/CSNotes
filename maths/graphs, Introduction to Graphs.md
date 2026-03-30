@@ -86,33 +86,6 @@ $$K_n \text{ has } \frac{n(n-1)}{2} \text{ edges}$$
 |$K_4$|4|6|
 |$K_5$|5|10|
 
----
-
-## 🌉 Motivating Problems
-
-### 1. Königsberg Bridge Problem
-
-**Question:** Can you walk over all 7 bridges exactly once and return to your start?
-
-- Euler (1736) modelled land masses as **vertices** and bridges as **edges**
-- Answer: **No** — proved using what we now call Eulerian circuits
-- This problem _invented graph theory_
-
-### 2. Travelling Salesman Problem (TSP)
-
-**Question:** Given cities and distances, find the shortest tour visiting each city exactly once.
-
-- Modelled as a **weighted complete graph**
-- Type: **optimisation (minimisation)**
-- No efficient general solution is known
-
-### 3. Map Colouring Problem
-
-**Question:** Colour a map so no two neighbouring regions share a colour. How many colours are needed?
-
-- Modelled as a graph: regions → vertices, shared borders → edges
-- **Four Colour Theorem:** any planar map needs at most 4 colours
-- 3 colours are **not** always enough
 
 ---
 
@@ -193,5 +166,3 @@ Edges in Km,n  = m × n
 `graph` `vertex` `edge` `multigraph` `loop` `multiple edges` `incident` `adjacent` `degree` `deg v` `isolated vertex` `degree sequence` `complete graph` `Kn` `bipartite graph` `complete bipartite graph` `Km,n` `subgraph` `isomorphic` `isomorphism` `Euler Theorem` `Handshaking Lemma`
 
 ---
-
-_Lecture DM-7 — Janka Chlebíková — School of Computing, University of Portsmouth_
