@@ -7,18 +7,16 @@ A **proposition** is a declarative statement that is either **true or false**, b
 
 ## Propositional Variable
 
-A **propositional variable** (usually denoted ( p, q, r, \dots )) represents a proposition and takes one of two truth values:
+A **propositional variable** (usually denoted $p, q, r, \dots$) represents a proposition and takes one of two truth values:
 
 - True (T)
-    
 - False (F)
-    
 
 ---
 
-## Negation (¬)
+## Negation ($\neg$)
 
-If ( p ) is a proposition, the **negation** of ( p ), written ( ¬p ), means “not p”.
+If $p$ is a proposition, the **negation** of $p$, written $\neg p$, means "not p".
 
 |p|¬p|
 |---|---|
@@ -27,10 +25,10 @@ If ( p ) is a proposition, the **negation** of ( p ), written ( ¬p ), means “
 
 ---
 
-## Conjunction (∧)
+## Conjunction ($\wedge$)
 
-The **conjunction** of ( p ) and ( q ), written ( p ∧ q ), means “p and q”.  
-It is true only when both ( p ) and ( q ) are true.
+The **conjunction** of $p$ and $q$, written $p \wedge q$, means "p and q".  
+It is true only when both $p$ and $q$ are true.
 
 |p|q|p ∧ q|
 |---|---|---|
@@ -41,10 +39,10 @@ It is true only when both ( p ) and ( q ) are true.
 
 ---
 
-## Disjunction (∨)
+## Disjunction ($\vee$)
 
-The **(inclusive) disjunction** of ( p ) and ( q ), written ( p ∨ q ), means “p or q”.  
-It is true when at least one of ( p ) or ( q ) is true.
+The **(inclusive) disjunction** of $p$ and $q$, written $p \vee q$, means "p or q".  
+It is true when at least one of $p$ or $q$ is true.
 
 |p|q|p ∨ q|
 |---|---|---|
@@ -55,14 +53,12 @@ It is true when at least one of ( p ) or ( q ) is true.
 
 ---
 
-## Implication (→)
+## Implication ($\to$)
 
-The **implication** ( p → q ) means “if p then q”.
+The **implication** $p \to q$ means "if p then q".
 
-- ( p ): hypothesis
-    
-- ( q ): conclusion
-    
+- $p$: hypothesis
+- $q$: conclusion
 
 |p|q|p → q|
 |---|---|---|
@@ -73,10 +69,10 @@ The **implication** ( p → q ) means “if p then q”.
 
 ---
 
-## Biconditional (↔)
+## Biconditional ($\leftrightarrow$)
 
-The **biconditional** ( p ↔ q ) means “p if and only if q” (iff).  
-It is true when ( p ) and ( q ) have the same truth value.
+The **biconditional** $p \leftrightarrow q$ means "p if and only if q" (iff).  
+It is true when $p$ and $q$ have the same truth value.
 
 |p|q|p ↔ q|
 |---|---|---|
@@ -90,14 +86,14 @@ It is true when ( p ) and ( q ) have the same truth value.
 ## Tautology
 
 A statement that is **true for all possible truth values** of its variables.  
-Example: ( p ∨ ¬p )
+Example: $p \vee \neg p$
 
 ---
 
 ## Contradiction
 
 A statement that is **false for all possible truth values**.  
-Example: ( p ∧ ¬p )
+Example: $p \wedge \neg p$
 
 ---
 
@@ -107,26 +103,23 @@ A statement that is sometimes true and sometimes false, depending on the truth v
 
 ---
 
-## Logical Equivalence (≡)
+## Logical Equivalence ($\equiv$)
 
-Two statements are **logically equivalent**, written ( p ≡ q ), if they have identical truth values for all possible assignments of their variables.
+Two statements are **logically equivalent**, written $p \equiv q$, if they have identical truth values for all possible assignments of their variables.
 
 ---
 
 ## Negation of a Conditional
 
-[  
-¬(p → q) ≡ p ∧ ¬q  
-]
+$$\neg(p \to q) \equiv p \wedge \neg q$$
 
 ---
 
 ## Contrapositive
 
-The **contrapositive** of ( p → q ) is:  
-[  
-¬q → ¬p  
-]
+The **contrapositive** of $p \to q$ is:
+
+$$\neg q \to \neg p$$
 
 A conditional statement is logically equivalent to its contrapositive.
 
@@ -134,19 +127,17 @@ A conditional statement is logically equivalent to its contrapositive.
 
 ## Necessary Condition
 
-“r is necessary for s” means:  
-[  
-s → r  
-]
+"r is necessary for s" means:
+
+$$s \to r$$
 
 ---
 
 ## Sufficient Condition
 
-“r is sufficient for s” means:  
-[  
-r → s  
-]
+"r is sufficient for s" means:
+
+$$r \to s$$
 
 ---
 
@@ -154,32 +145,23 @@ r → s
 
 If:
 
-1. ( p → q )
-    
-2. ( p )
-    
+1. $p \to q$
+2. $p$
 
 Then:
 
-- ( q )
-    
+- $q$
 
 ---
 
 # Order of Operations (Precedence of Connectives)
 
 1. Brackets
-    
-2. ¬
-    
-3. ∧
-    
-4. ∨
-    
-5. →
-    
-6. ↔
-    
+2. $\neg$
+3. $\wedge$
+4. $\vee$
+5. $\to$
+6. $\leftrightarrow$
 
 ---
 
@@ -187,62 +169,51 @@ Then:
 
 ### Idempotent Laws
 
-- ( p ∧ p ≡ p )
-    
-- ( p ∨ p ≡ p )
-    
+- $p \wedge p \equiv p$
+- $p \vee p \equiv p$
 
 ### Identity Laws
 
-- ( p ∧ T ≡ p )
-    
-- ( p ∨ F ≡ p )
-    
+- $p \wedge T \equiv p$
+- $p \vee F \equiv p$
 
 ### Domination Laws
 
-- ( p ∨ T ≡ T )
-    
-- ( p ∧ F ≡ F )
-    
+- $p \vee T \equiv T$
+- $p \wedge F \equiv F$
 
 ### Double Negation
 
-- ( ¬(¬p) ≡ p )
-    
+- $\neg(\neg p) \equiv p$
 
 ### Complement Laws
 
-- ( p ∨ ¬p ≡ T )
-    
-- ( p ∧ ¬p ≡ F )
-    
+- $p \vee \neg p \equiv T$
+- $p \wedge \neg p \equiv F$
 
 ### Commutative Laws
 
-- ( p ∧ q ≡ q ∧ p )
-    
-- ( p ∨ q ≡ q ∨ p )
-    
+- $p \wedge q \equiv q \wedge p$
+- $p \vee q \equiv q \vee p$
+
+### Associative Laws
+
+- $(p \wedge q) \wedge r \equiv p \wedge (q \wedge r)$
+- $(p \vee q) \vee r \equiv p \vee (q \vee r)$
 
 ### Distributive Laws
 
-- ( p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) )
-    
-- ( p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r) )
-    
+- $p \vee (q \wedge r) \equiv (p \vee q) \wedge (p \vee r)$
+- $p \wedge (q \vee r) \equiv (p \wedge q) \vee (p \wedge r)$
 
 ### Implication Law
 
-- ( p → q ≡ ¬p ∨ q )
-    
+- $p \to q \equiv \neg p \vee q$
 
-### De Morgan’s Laws
+### De Morgan's Laws
 
-- ( ¬(p ∨ q) ≡ ¬p ∧ ¬q )
-    
-- ( ¬(p ∧ q) ≡ ¬p ∨ ¬q )
-    
+- $\neg(p \vee q) \equiv \neg p \wedge \neg q$
+- $\neg(p \wedge q) \equiv \neg p \vee \neg q$
 
 ---
 
@@ -260,47 +231,26 @@ Apply equivalence laws to simplify expressions.
 
 # Example Simplification
 
-Show that:
+Show that $(\neg(p \vee q)) \vee ((\neg p) \wedge q) \equiv \neg p$:
 
-[  
-(¬(p ∨ q)) ∨ ((¬p) ∧ q)  
-]
+$$(\neg(p \vee q)) \vee ((\neg p) \wedge q)$$
 
-[  
-≡ (¬p ∧ ¬q) ∨ (¬p ∧ q)  
-]
+$$\equiv (\neg p \wedge \neg q) \vee (\neg p \wedge q) \quad \text{(De Morgan's Law)}$$
 
-[  
-≡ ¬p ∧ (¬q ∨ q)  
-]
+$$\equiv \neg p \wedge (\neg q \vee q) \quad \text{(Distributive Law)}$$
 
-[  
-≡ ¬p ∧ T  
-]
+$$\equiv \neg p \wedge T \quad \text{(Complement Law)}$$
 
-[  
-≡ ¬p  
-]
+$$\equiv \neg p \quad \text{(Identity Law)}$$
 
 ---
 
 # Summary
 
 - Propositions and propositional variables
-    
-- Logical connectives: ¬, ∧, ∨, →, ↔
-    
+- Logical connectives: $\neg, \wedge, \vee, \to, \leftrightarrow$
 - Truth tables
-    
 - Logical equivalence
-    
 - Tautology, contradiction, contingency
-    
 - Contrapositive
-    
 - Necessary and sufficient conditions
-    
-
----
-
-If you'd like it reformatted into atomic linked Obsidian notes instead of one long note, I can restructure it that way.

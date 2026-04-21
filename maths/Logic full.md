@@ -58,9 +58,7 @@
 
 ### Negation ($\neg$)
 
-- **Symbol:** $\neg$ or $-$ (not).
-    
-    +2
+- **Symbol:** $\neg$ or $\sim$ (not).
     
 - **Function:** Reverses the truth value.
     
@@ -72,8 +70,6 @@
 ### Conjunction ($\wedge$)
 
 - **Symbol:** $\wedge$ (and).
-    
-    +2
     
 - **Truth Table:** True only when **both** $p$ and $q$ are True.
     
@@ -187,6 +183,12 @@ Similar to algebraic order of operations, logical connectives are evaluated in t
     - $p \wedge q \equiv q \wedge p$
         
     - $p \vee q \equiv q \vee p$
+        
+- **Associativity:**
+    
+    - $(p \wedge q) \wedge r \equiv p \wedge (q \wedge r)$
+        
+    - $(p \vee q) \vee r \equiv p \vee (q \vee r)$
         
 - **Distributivity:**
     

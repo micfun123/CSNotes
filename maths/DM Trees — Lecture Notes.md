@@ -1,3 +1,4 @@
+# Discrete Mathematics – Trees (Lecture Notes)
 
 ## Definitions
 

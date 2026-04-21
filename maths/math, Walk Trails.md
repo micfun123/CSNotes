@@ -1,3 +1,4 @@
+# Discrete Mathematics – Walks, Trails, and Eulerian Graphs (Revision Notes)
 
 ---
 
@@ -77,7 +78,7 @@ An Eulerian circuit is like drawing a graph without lifting your pen and without
 
 For a graph G with n vertices v₁, v₂, …, vₙ, the **adjacency matrix** A is the n×n matrix where:
 
-$$a_{ij} = \begin{cases} 1 & \text{if } v_iv_j \text{ is an edge} \ 0 & \text{if } v_iv_j \text{ is not an edge} \end{cases}$$
+$$a_{ij} = \begin{cases} 1 & \text{if } v_iv_j \text{ is an edge} \\ 0 & \text{if } v_iv_j \text{ is not an edge} \end{cases}$$
 
 ### Key Properties
 

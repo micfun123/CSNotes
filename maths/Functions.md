@@ -37,7 +37,7 @@ The **co-domain** of a function $f: A \rightarrow B$ is the **target set $B$**.
 
 The **range** of a function is the **set of actual outputs produced by the function**.
 
-$$\text{range}(f) = { f(x) \mid x \in A }$$
+$$\text{range}(f) = \{ f(x) \mid x \in A \}$$
 
 ---
 
@@ -137,7 +137,7 @@ g(b) = 1
 g(c) = 2
 ```
 
-Equivalent ordered pairs: ${(a,1),\ (b,1),\ (c,2)}$
+Equivalent ordered pairs: $\{(a,1),\ (b,1),\ (c,2)\}$
 
 ---
 

@@ -1,3 +1,4 @@
+# Discrete Mathematics – Sets (Revision Notes)
 
 ---
 
@@ -10,7 +11,7 @@
 | **Empty Set (Null Set)**  | The set with no elements, denoted $\emptyset$ or ${}$.                                                   |
 | **Finite Set**            | A set whose elements can be counted in a finite amount of time.                                          |
 | **Infinite Set**          | A set whose elements cannot be fully counted.                                                            |
-| **Cardinality**           | The number of elements in a finite set $X$, written $                                                    |
+| **Cardinality**           | The number of elements in a finite set $X$, written $|X|$.                                               |
 | **Subset**                | $A \subseteq B$ if every element of $A$ is also in $B$.                                                  |
 | **Proper Subset**         | $A \subset B$ if $A \subseteq B$ and $B$ has at least one element not in $A$.                            |
 | **Equal Sets**            | $A = B$ if $A \subseteq B$ and $B \subseteq A$ (same elements).                                          |
@@ -20,7 +21,7 @@
 | **Difference**            | $A \setminus B = {x \mid x \in A \text{ and } x \notin B}$ (also written $A - B$).                       |
 | **Complement**            | $A' = {x \mid x \in U \text{ and } x \notin A}$ — everything in the universe $U$ not in $A$.             |
 | **Universe of Discourse** | The set $U$ containing all sets under consideration.                                                     |
-| **Power Set**             | $\mathcal{P}(S)$ — the collection of **all subsets** of $S$. If $                                        |
+| **Power Set**             | $\mathcal{P}(S)$ — the collection of **all subsets** of $S$. If $|S| = n$, then $|\mathcal{P}(S)| = 2^n$. |
 | **Partition**             | A collection of non-empty, mutually disjoint subsets of $S$ whose union equals $S$.                      |
 | **Venn Diagram**          | A pictorial representation of sets and their relationships.                                              |
 
@@ -121,8 +122,10 @@ Everything in the universe $U$ that is **not** in $A$. $$A' = {x \mid x \in U \t
 
 |Property|Union|Intersection|
 |---|---|---|
-|**Identity**|$A \cup \emptyset = A$|$A \cap \emptyset = \emptyset$|
+|**Identity**|$A \cup \emptyset = A$|$A \cap U = A$|
+|**Domination**|$A \cup U = U$|$A \cap \emptyset = \emptyset$|
 |**Idempotent**|$A \cup A = A$|$A \cap A = A$|
+|**Complement**|$A \cup A' = U$|$A \cap A' = \emptyset$|
 |**Commutative**|$A \cup B = B \cup A$|$A \cap B = B \cap A$|
 |**Associative**|$(A \cup B) \cup C = A \cup (B \cup C)$|$(A \cap B) \cap C = A \cap (B \cap C)$|
 
