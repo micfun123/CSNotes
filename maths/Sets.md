@@ -4,26 +4,26 @@
 
 ## 📖 Definitions
 
-| Term                      | Definition                                                                                               |
-| ------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Set**                   | A collection of objects called **elements** (or **members**). No repeated elements; no particular order. |
-| **Element / Member**      | An object belonging to a set. Written $x \in S$ (x is in S) or $x \notin S$ (x is not in S).             |
-| **Empty Set (Null Set)**  | The set with no elements, denoted $\emptyset$ or ${}$.                                                   |
-| **Finite Set**            | A set whose elements can be counted in a finite amount of time.                                          |
-| **Infinite Set**          | A set whose elements cannot be fully counted.                                                            |
-| **Cardinality**           | The number of elements in a finite set $X$, written $|X|$.                                               |
-| **Subset**                | $A \subseteq B$ if every element of $A$ is also in $B$.                                                  |
-| **Proper Subset**         | $A \subset B$ if $A \subseteq B$ and $B$ has at least one element not in $A$.                            |
-| **Equal Sets**            | $A = B$ if $A \subseteq B$ and $B \subseteq A$ (same elements).                                          |
-| **Intersection**          | $A \cap B = {x \mid x \in A \text{ and } x \in B}$ — elements in both sets.                              |
-| **Disjoint Sets**         | Sets $A$ and $B$ where $A \cap B = \emptyset$ (no common elements).                                      |
-| **Union**                 | $A \cup B = {x \mid x \in A \text{ or } x \in B}$ — elements in either set.                              |
-| **Difference**            | $A \setminus B = {x \mid x \in A \text{ and } x \notin B}$ (also written $A - B$).                       |
-| **Complement**            | $A' = {x \mid x \in U \text{ and } x \notin A}$ — everything in the universe $U$ not in $A$.             |
-| **Universe of Discourse** | The set $U$ containing all sets under consideration.                                                     |
-| **Power Set**             | $\mathcal{P}(S)$ — the collection of **all subsets** of $S$. If $|S| = n$, then $|\mathcal{P}(S)| = 2^n$. |
-| **Partition**             | A collection of non-empty, mutually disjoint subsets of $S$ whose union equals $S$.                      |
-| **Venn Diagram**          | A pictorial representation of sets and their relationships.                                              |
+| Term                      | Definition                                                                                               |     |              |                |         |
+| ------------------------- | -------------------------------------------------------------------------------------------------------- | --- | ------------ | -------------- | ------- |
+| **Set**                   | A collection of objects called **elements** (or **members**). No repeated elements; no particular order. |     |              |                |         |
+| **Element / Member**      | An object belonging to a set. Written $x \in S$ (x is in S) or $x \notin S$ (x is not in S).             |     |              |                |         |
+| **Empty Set (Null Set)**  | The set with no elements, denoted $\emptyset$ or ${}$.                                                   |     |              |                |         |
+| **Finite Set**            | A set whose elements can be counted in a finite amount of time.                                          |     |              |                |         |
+| **Infinite Set**          | A set whose elements cannot be fully counted.                                                            |     |              |                |         |
+| **Cardinality**           | The number of elements in a finite set $X$, written $                                                    | X   | $.           |                |         |
+| **Subset**                | $A \subseteq B$ if every element of $A$ is also in $B$.                                                  |     |              |                |         |
+| **Proper Subset**         | $A \subset B$ if $A \subseteq B$ and $B$ has at least one element not in $A$.                            |     |              |                |         |
+| **Equal Sets**            | $A = B$ if $A \subseteq B$ and $B \subseteq A$ (same elements).                                          |     |              |                |         |
+| **Intersection**          | $A \cap B = {x \mid x \in A \text{ and } x \in B}$ — elements in both sets.                              |     |              |                |         |
+| **Disjoint Sets**         | Sets $A$ and $B$ where $A \cap B = \emptyset$ (no common elements).                                      |     |              |                |         |
+| **Union**                 | $A \cup B = {x \mid x \in A \text{ or } x \in B}$ — elements in either set.                              |     |              |                |         |
+| **Difference**            | $A \setminus B = {x \mid x \in A \text{ and } x \notin B}$ (also written $A - B$).                       |     |              |                |         |
+| **Complement**            | $A' = {x \mid x \in U \text{ and } x \notin A}$ — everything in the universe $U$ not in $A$.             |     |              |                |         |
+| **Universe of Discourse** | The set $U$ containing all sets under consideration.                                                     |     |              |                |         |
+| **Power Set**             | $\mathcal{P}(S)$ — the collection of **all subsets** of $S$. If $                                        | S   | = n$, then $ | \mathcal{P}(S) | = 2^n$. |
+| **Partition**             | A collection of non-empty, mutually disjoint subsets of $S$ whose union equals $S$.                      |     |              |                |         |
+| **Venn Diagram**          | A pictorial representation of sets and their relationships.                                              |     |              |                |         |
 
 ---
 

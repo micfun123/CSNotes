@@ -1,5 +1,3 @@
-# Discrete Mathematics – Lecture 3: Functions (Revision Notes)
-
 ## Definitions
 
 ### Function

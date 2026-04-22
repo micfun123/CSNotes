@@ -1,8 +1,4 @@
-# Discrete Mathematics – Introduction to Graphs (Revision Notes)
 
-#discrete-maths #graphs #revision
-
----
 
 ## 📖 All Definitions
 
@@ -90,18 +86,18 @@ $$K_n \text{ has } \frac{n(n-1)}{2} \text{ edges}$$
 
 ---
 
-## 🗂️ Types of Graph Problems
+## Types of Graph Problems
 
-|Type|Question|Example|
-|---|---|---|
-|**Existence**|Does a solution exist?|Königsberg bridge walk|
-|**Optimisation**|What is the _best_ solution?|Travelling Salesman Problem|
-|**Construction**|_How_ do we find a solution?|Finding a valid map colouring|
-|**Enumeration**|_How many_ solutions are there?|Number of shortest TSP tours|
+| Type             | Question                        | Example                       |
+| ---------------- | ------------------------------- | ----------------------------- |
+| **Existence**    | Does a solution exist?          | Königsberg bridge walk        |
+| **Optimisation** | What is the _best_ solution?    | Travelling Salesman Problem   |
+| **Construction** | _How_ do we find a solution?    | Finding a valid map colouring |
+| **Enumeration**  | _How many_ solutions are there? | Number of shortest TSP tours  |
 
 ---
 
-## 🔷 Special Graph Families
+## Special Graph Families
 
 ### Complete Graphs $K_n$
 
@@ -122,7 +118,7 @@ $$K_n \text{ has } \frac{n(n-1)}{2} \text{ edges}$$
 
 ---
 
-## 🔁 Graph Isomorphism
+## Graph Isomorphism
 
 Two graphs are isomorphic if one is a **re-labelling** of the other — same structure, different names.
 
@@ -148,7 +144,7 @@ Two graphs are isomorphic if one is a **re-labelling** of the other — same str
 
 ---
 
-## ⚡ Quick Reference
+## Reference
 
 ```
 Sum of degrees = 2 × number of edges
@@ -162,8 +158,4 @@ Edges in Km,n  = m × n
 
 ---
 
-## 🏷️ Key Terms
 
-`graph` `vertex` `edge` `multigraph` `loop` `multiple edges` `incident` `adjacent` `degree` `deg v` `isolated vertex` `degree sequence` `complete graph` `Kn` `bipartite graph` `complete bipartite graph` `Km,n` `subgraph` `isomorphic` `isomorphism` `Euler Theorem` `Handshaking Lemma`
-
----
