@@ -207,6 +207,61 @@ In computer science, trees are typically drawn with the root at the top, growing
 
 ---
 
+## 8. Bipartite Graphs and Trees
+
+### Bipartite Graphs
+
+> **Definition:** A graph G = (V, E) is **bipartite** if its vertex set V can be partitioned into two disjoint sets X and Y such that every edge connects a vertex in X to a vertex in Y (no edge exists within X or within Y).
+
+The two sets X and Y are called the **bipartition** of G.
+
+**Key Theorem:** A graph is bipartite **if and only if** it contains no odd-length cycles.
+
+Since trees contain **no cycles at all**, this immediately gives us:
+
+> **Theorem:** Every tree is a bipartite graph.
+
+**Why:** Starting from any vertex, colour it X. Colour all its neighbours Y, their neighbours X, and so on. Because there are no cycles, no vertex is ever forced into both sets — the 2-colouring always succeeds.
+
+**Example:** A path graph P₄ with vertices a–b–c–d has bipartition X = {a, c}, Y = {b, d}.
+
+---
+
+### Complete Bipartite Graphs
+
+> **Definition:** A **complete bipartite graph** K_{m,n} is a bipartite graph where every vertex in X (|X| = m) is connected to **every** vertex in Y (|Y| = n), with no edges within X or Y.
+
+**Properties of K_{m,n}:**
+
+| Property | Value |
+|---|---|
+| Vertices | m + n |
+| Edges | m × n |
+| Degree of each vertex in X | n |
+| Degree of each vertex in Y | m |
+
+**When is K_{m,n} a tree?**
+
+A tree on n vertices has exactly n − 1 edges. For K_{m,n}:
+
+- Vertices = m + n
+- Edges = m × n
+
+So K_{m,n} is a tree only when m × n = (m + n) − 1, i.e. m × n − m − n + 1 = 0, i.e. (m−1)(n−1) = 0.
+
+This holds **if and only if m = 1 or n = 1**.
+
+> **Result:** The only complete bipartite graphs that are trees are **K_{1,n}** (and K_{m,1}), known as **star graphs**.
+
+A **star graph** K_{1,n} has one central vertex (the root) connected to n leaves, with no other edges — it is the simplest non-trivial tree structure.
+
+**Examples:**
+- K_{1,1} — a single edge (the smallest tree)
+- K_{1,3} — one hub connected to 3 leaves
+- K_{2,3} — bipartite but **not** a tree (has 5 vertices, 6 edges, and contains cycles)
+
+---
+
 ## 7. Key Terms Summary
 
 - **Tree** — connected, acyclic graph
@@ -217,3 +272,7 @@ In computer science, trees are typically drawn with the root at the top, growing
 - **Kruskal's algorithm** — greedy MST via globally cheapest edges
 - **Prim's algorithm** — greedy MST via outward expansion
 - **Root, parent, child, sibling** — rooted tree terminology
+- **Bipartite graph** — vertices split into two sets X, Y with edges only between them
+- **Every tree is bipartite** — trees have no cycles, so 2-colouring always succeeds
+- **Complete bipartite graph K_{m,n}** — every vertex in X connected to every vertex in Y
+- **Star graph K_{1,n}** — the only complete bipartite graphs that are also trees
