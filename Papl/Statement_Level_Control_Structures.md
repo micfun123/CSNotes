@@ -1,5 +1,3 @@
-# Lecture 15: Statement-Level Control Structures
-### Programming Applications and Programming Languages — Dr Jiacheng Tan, University of Portsmouth
 
 ---
 
