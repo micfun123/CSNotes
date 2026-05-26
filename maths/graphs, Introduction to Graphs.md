@@ -1,8 +1,5 @@
 
-
-## 📖 All Definitions
-
-> [!definition] Graph A **graph** $G$ is a pair $(V, E)$ where:
+Graph A **graph** $G$ is a pair $(V, E)$ where:
 > 
 > - $V$ is a non-empty set of **vertices** (nodes)
 > - $E$ is a set of **edges**, each edge being a set of two _distinct_ elements of $V$
@@ -45,7 +42,7 @@
 
 ---
 
-## 📐 Key Theorems
+## Key Theorems
 
 ### Euler Theorem (Handshaking Lemma)
 
