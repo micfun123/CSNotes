@@ -46,7 +46,7 @@ Graph A **graph** $G$ is a pair $(V, E)$ where:
 
 ### Euler Theorem (Handshaking Lemma)
 
-> [!theorem] Euler Theorem In any graph $G = (V, E)$: $$\sum_{v \in V} \deg v = 2|E|$$ The sum of all vertex degrees equals **twice** the number of edges.
+>  Euler Theorem In any graph $G = (V, E)$: $$\sum_{v \in V} \deg v = 2|E|$$ The sum of all vertex degrees equals **twice** the number of edges.
 
 **Why?** Every edge contributes $+1$ to each of its two end vertices, so each edge adds $2$ to the total.
 
