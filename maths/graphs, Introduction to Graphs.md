@@ -4,41 +4,41 @@ Graph A **graph** $G$ is a pair $(V, E)$ where:
 > - $V$ is a non-empty set of **vertices** (nodes)
 > - $E$ is a set of **edges**, each edge being a set of two _distinct_ elements of $V$
 
-> [!definition] Edge An element $e \in E$ of the form $e = {u, v}$, connecting two distinct vertices $u$ and $v$.
+> Edge An element $e \in E$ of the form $e = {u, v}$, connecting two distinct vertices $u$ and $v$.
 > 
 > - Written as $uv$ (same as $vu$ — order doesn't matter)
 > - $u$ and $v$ are called the **end vertices** of $e$
 > - $e$ **joins** (connects) $u$ and $v$
 
-> [!definition] Incident A vertex $v$ is **incident** with an edge $e$ if $v$ is one of the end vertices of $e$.
+> Incident A vertex $v$ is **incident** with an edge $e$ if $v$ is one of the end vertices of $e$.
 
-> [!definition] Adjacent Two vertices $u$ and $v$ are **adjacent** if $uv \in E$ (i.e. they are connected by an edge).
+> Adjacent Two vertices $u$ and $v$ are **adjacent** if $uv \in E$ (i.e. they are connected by an edge).
 
-> [!definition] Degree The **degree** of a vertex $v$, written $\deg v$, is the number of edges incident with $v$.
+> Degree The **degree** of a vertex $v$, written $\deg v$, is the number of edges incident with $v$.
 > 
 > - A vertex with $\deg v = 0$ is called an **isolated vertex**
 
-> [!definition] Degree Sequence The degrees $d_1 \leq d_2 \leq \cdots \leq d_n$ of all vertices of $G$, listed in non-decreasing order. Written as the tuple $(d_1, d_2, \ldots, d_n)$.
+> Degree Sequence The degrees $d_1 \leq d_2 \leq \cdots \leq d_n$ of all vertices of $G$, listed in non-decreasing order. Written as the tuple $(d_1, d_2, \ldots, d_n)$.
 
-> [!definition] Multigraph / Pseudograph Like a graph, but may contain:
+> Multigraph / Pseudograph Like a graph, but may contain:
 > 
 > - **Loops** — an edge from a vertex to itself
 > - **Multiple edges** — more than one edge between the same pair of vertices
 > 
 > _The Königsberg bridge graph is a multigraph._
 
-> [!definition] Complete Graph $K_n$ A graph on $n$ vertices where **every pair of vertices is adjacent**. $$|E| = \frac{n(n-1)}{2}$$
+> Complete Graph $K_n$ A graph on $n$ vertices where **every pair of vertices is adjacent**. $$|E| = \frac{n(n-1)}{2}$$
 
-> [!definition] Bipartite Graph A graph whose vertices can be partitioned into two disjoint sets $V_1$ and $V_2$ such that **every edge connects a vertex in $V_1$ to a vertex in $V_2$** (no edges within $V_1$ or within $V_2$).
+> Bipartite Graph A graph whose vertices can be partitioned into two disjoint sets $V_1$ and $V_2$ such that **every edge connects a vertex in $V_1$ to a vertex in $V_2$** (no edges within $V_1$ or within $V_2$).
 
-> [!definition] Complete Bipartite Graph $K_{m,n}$ A bipartite graph where **every vertex in $V_1$ is joined to every vertex in $V_2$**.
+> Complete Bipartite Graph $K_{m,n}$ A bipartite graph where **every vertex in $V_1$ is joined to every vertex in $V_2$**.
 > 
 > - $|V_1| = m$, $|V_2| = n$
 > - Number of edges $= m \times n$
 
-> [!definition] Subgraph A graph $H$ is a **subgraph** of $G$ if: $$V(H) \subseteq V(G) \quad \text{and} \quad E(H) \subseteq E(G)$$
+> Subgraph A graph $H$ is a **subgraph** of $G$ if: $$V(H) \subseteq V(G) \quad \text{and} \quad E(H) \subseteq E(G)$$
 
-> [!definition] Isomorphic Graphs Graphs $G$ and $H$ are **isomorphic** ($G \cong H$) if there exists a bijection $f: V(G) \to V(H)$ such that: $$uv \in E(G) \iff f(u)f(v) \in E(H)$$ Informally: $H$ can be obtained from $G$ by **re-labelling the vertices**.
+> Isomorphic Graphs Graphs $G$ and $H$ are **isomorphic** ($G \cong H$) if there exists a bijection $f: V(G) \to V(H)$ such that: $$uv \in E(G) \iff f(u)f(v) \in E(H)$$ Informally: $H$ can be obtained from $G$ by **re-labelling the vertices**.
 
 ---
 
